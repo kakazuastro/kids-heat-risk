@@ -1766,7 +1766,7 @@ function updateColorBarMarker(wbgtValue, ageGroup) {
     <!-- 環境情報カード -->
     <div style="background: white; border-radius: 16px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <div style="font-size: 16px; font-weight: 600; color: #333; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
-        今の暑さ
+        今の暑さ（気象庁アメダス観測データ）
     </div>
     
     <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px;">
@@ -1822,7 +1822,7 @@ function updateColorBarMarker(wbgtValue, ageGroup) {
     <!-- お子さまが感じる暑さカード -->
     <div style="background: white; border-radius: 16px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
         <div style="font-size: 16px; font-weight: 600; color: #333; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
-            お子さまが感じる暑さ
+            お子さまが感じる暑さ(推定値)
         </div>
         
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
