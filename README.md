@@ -47,7 +47,7 @@
 
 ### メイン判定API
 ```
-POST/GET https://kids-heat-risk-865761751183.asia-northeast1.run.app/
+GET https://kids-heat-risk-865761751183.asia-northeast1.run.app/
 ```
 
 **パラメータ:**
