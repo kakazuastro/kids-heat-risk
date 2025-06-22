@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>あついよ！熱中症みまもりAI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ハンバーガーメニュー -->
+  <div class="hamburger-menu" id="hamburgerMenu">
+    <div class="hamburger-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+
+
+  <!-- サイドメニュー -->
+  <div class="side-menu" id="sideMenu">
+    <div class="menu-header">
+      <h3>メニュー</h3>
+    </div>
+    <div class="menu-items">
+      <div class="menu-item" onclick="openModal('wbgtModal')">
+        暑さ指数とは
+      </div>
+      <div class="menu-item" onclick="openModal('criteriaModal')">
+        判定基準
+      </div>
+      <div class="menu-item" onclick="openModal('symptomsModal')">
+        症状と対処法
+      </div>
+      <div class="menu-item" onclick="openModal('preventionModal')">
+        予防方法
+      </div>
+      <div class="menu-item" onclick="openModal('aboutModal')">
+        アプリについて
+      </div>
+      <div class="menu-item" onclick="refreshData()">
+        データ更新
+      </div>
+    </div>
+  </div>
+
+  <!-- オーバーレイ -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- モーダル群 -->
+  <!-- 暑さ指数モーダル -->
+  <div class="modal" id="wbgtModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>暑さ指数とは</h3>
+        <button class="close-btn" onclick="closeModal('wbgtModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p><strong>暑さ指数（WBGT）</strong>は、気温・湿度・日射等を考慮した、熱中症予防のための指標です。</p>
+        
+        <h4>暑さ指数と熱中症予防のための運動指針</h4>
+        <table class="wbgt-table">
+          <thead>
+            <tr>
+              <th>暑さ指数</th>
+              <th>警戒レベル</th>
+              <th>対応指針</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="danger">
+              <td class="temp-range">31°C以上</td>
+              <td><span class="risk-level risk-danger">危険</span></td>
+              <td><strong>運動は原則中止</strong><br>
+              特別の場合以外は運動を中止<br>
+              皮膚温より気温が高くなると汗による熱放散効果が減少し、熱中症の危険性が非常に高い</td>
+            </tr>
+            <tr class="severe">
+              <td class="temp-range">28-31°C</td>
+              <td><span class="risk-level risk-severe">厳重警戒</span></td>
+              <td><strong>激しい運動は中止</strong><br>
+              激しい運動や持久走は避ける<br>
+              積極的に休憩をとり、適宜水分・塩分を補給</td>
+            </tr>
+            <tr class="warning">
+              <td class="temp-range">25-28°C</td>
+              <td><span class="risk-level risk-warning">警戒</span></td>
+              <td><strong>積極的に休憩</strong><br>
+              運動の合間に積極的に水分・塩分を補給<br>
+              激しい運動では30分おきくらいに休憩をとる</td>
+            </tr>
+            <tr class="caution">
+              <td class="temp-range">21-25°C</td>
+              <td><span class="risk-level risk-warning">注意</span></td>
+              <td><strong>適度な注意が必要</strong><br>
+              一般に安全であるが激しい運動や重労働時には発汗による脱水に注意<br>
+              運動の合間に適宜水分・塩分を補給</td>
+            </tr>
+            <tr class="caution">
+              <td class="temp-range">21°C未満</td>
+              <td><span class="risk-level risk-caution">ほぼ安全</span></td>
+              <td><strong>適宜水分補給</strong><br>
+              通常は熱中症の危険は小さい<br>
+              適宜水分・塩分の補給は必要</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="reference-note">
+          <p><strong>参考基準：</strong>公益財団法人 日本スポーツ協会「スポーツ活動中の熱中症予防ガイドブック」(2019)、環境省「熱中症予防情報サイト」に基づく</p>
+        </div>
+
+        <h4>子供への特別な配慮</h4>
+        <table class="wbgt-table">
+          <thead>
+            <tr>
+              <th>配慮項目</th>
+              <th>理由・対策</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>体温調節機能</strong></td>
+              <td>未熟で大人より熱中症になりやすい<br>→ <em>こまめな休憩と水分補給が必要</em></td>
+            </tr>
+            <tr>
+              <td><strong>身長と輻射熱</strong></td>
+              <td>地面に近く、輻射熱の影響を強く受ける<br>→ <em>ベビーカーや地面近くの温度に注意</em></td>
+            </tr>
+            <tr>
+              <td><strong>自己申告の困難</strong></td>
+              <td>体調変化を正確に伝えられない<br>→ <em>大人が積極的に観察・声掛け</em></td>
+            </tr>
+            <tr>
+              <td><strong>遊びへの集中</strong></td>
+              <td>夢中になり体調変化に気づかない<br>→ <em>定期的な休憩の強制実施</em></td>
+            </tr>
+            <tr>
+              <td><strong>水分補給</strong></td>
+              <td>適切なタイミングが分からない<br>→ <em>大人主導での定期的な水分補給</em></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>緊急時の症状と対応</h4>
+        <ul>
+          <li><strong>軽度：</strong>めまい、立ちくらみ、筋肉痛 → 涼しい場所で水分・塩分補給</li>
+          <li><strong>中度：</strong>頭痛、嘔吐、倦怠感 → 医療機関への受診を検討</li>
+          <li><strong>重度：</strong>意識障害、けいれん、高体温 → <strong>即座に救急車（119番）</strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 判定基準モーダル -->
+  <div class="modal" id="criteriaModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>判定基準</h3>
+        <button class="close-btn" onclick="closeModal('criteriaModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>このアプリは<strong>年齢別の暑さ指数</strong>に基づいて熱中症リスクを判定します。一般的な成人向け基準よりも、子供の特性を考慮した<strong>より厳格な基準</strong>を採用しています。</p>
+        
+        <h4>年齢別判定基準（WBGT温度）</h4>
+        
+        <!-- 0-1歳（乳児）の基準 -->
+        <div style="margin-bottom: 30px;">
+          <h5 style="color: #E53E3E; margin-bottom: 15px;">0-1歳（乳児）- 最も厳格な基準</h5>
+          <table class="wbgt-table">
+            <thead>
+              <tr>
+                <th>暑さ指数</th>
+                <th>リスクレベル</th>
+                <th>対応</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="danger">
+                <td class="temp-range">31°C以上</td>
+                <td><span class="risk-level risk-danger">非常に危険レベル3</span></td>
+                <td><strong>絶対外出禁止</strong><br>完全に室内でエアコン必須</td>
+              </tr>
+              <tr class="danger">
+                <td class="temp-range">28-31°C</td>
+                <td><span class="risk-level risk-danger">高危険レベル2</span></td>
+                <td><strong>外出禁止</strong><br>室内でエアコン必須</td>
+              </tr>
+              <tr class="danger">
+                <td class="temp-range">25-28°C</td>
+                <td><span class="risk-level risk-danger">危険レベル1</span></td>
+                <td><strong>外出禁止</strong><br>室内でエアコン必須</td>
+              </tr>
+              <tr class="severe">
+                <td class="temp-range">22-25°C</td>
+                <td><span class="risk-level risk-severe">厳重警戒</span></td>
+                <td><strong>短時間外出のみ</strong><br>常時監視が必要</td>
+              </tr>
+              <tr class="warning">
+                <td class="temp-range">19-22°C</td>
+                <td><span class="risk-level risk-warning">警戒</span></td>
+                <td><strong>注意深い外出</strong><br>頻繁な休憩</td>
+              </tr>
+              <tr class="caution">
+                <td class="temp-range">16-19°C</td>
+                <td><span class="risk-level risk-warning">注意</span></td>
+                <td><strong>適度な注意</strong><br>定期的な水分補給</td>
+              </tr>
+              <tr class="caution">
+                <td class="temp-range">16°C未満</td>
+                <td><span class="risk-level risk-caution">ほぼ安全</span></td>
+                <td><strong>通常の外出可</strong><br>基本的な注意は必要</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 2-3歳（幼児）の基準 -->
+        <div style="margin-bottom: 30px;">
+          <h5 style="color: #FF8C42; margin-bottom: 15px;">2-3歳（幼児）- 厳格な基準</h5>
+          <table class="wbgt-table">
+            <thead>
+              <tr>
+                <th>暑さ指数</th>
+                <th>リスクレベル</th>
+                <th>対応</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="danger">
+                <td class="temp-range">32°C以上</td>
+                <td><span class="risk-level risk-danger">非常に危険レベル3</span></td>
+                <td><strong>絶対外出禁止</strong><br>完全に室内でエアコン必須</td>
+              </tr>
+              <tr class="danger">
+                <td class="temp-range">29-32°C</td>
+                <td><span class="risk-level risk-danger">高危険レベル2</span></td>
+                <td><strong>外出禁止</strong><br>室内でエアコン必須</td>
+              </tr>
+              <tr class="danger">
+                <td class="temp-range">26-29°C</td>
+                <td><span class="risk-level risk-danger">危険レベル1</span></td>
+                <td><strong>外出禁止</strong><br>室内活動に制限</td>
+              </tr>
+              <tr class="severe">
+                <td class="temp-range">23-26°C</td>
+                <td><span class="risk-level risk-severe">厳重警戒</span></td>
+                <td><strong>外出時間制限</strong><br>激しい遊びは禁止</td>
+              </tr>
+              <tr class="warning">
+                <td class="temp-range">20-23°C</td>
+                <td><span class="risk-level risk-warning">警戒</span></td>
+                <td><strong>こまめな休憩</strong><br>水分補給を徹底</td>
+              </tr>
+              <tr class="caution">
+                <td class="temp-range">17-20°C</td>
+                <td><span class="risk-level risk-warning">注意</span></td>
+                <td><strong>適度な注意</strong><br>長時間外出は避ける</td>
+              </tr>
+              <tr class="caution">
+                <td class="temp-range">17°C未満</td>
+                <td><span class="risk-level risk-caution">ほぼ安全</span></td>
+                <td><strong>通常の外出可</strong><br>基本的な水分補給</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- 4-6歳（園児）の基準 -->
+        <div style="margin-bottom: 30px;">
+          <h5 style="color: #FFB74D; margin-bottom: 15px;">4-6歳（園児）- 標準基準</h5>
+          <table class="wbgt-table">
+            <thead>
+              <tr>
+                <th>暑さ指数</th>
+                <th>リスクレベル</th>
+                <th>対応</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="danger">
+                <td class="temp-range">33°C以上</td>
+                <td><span class="risk-level risk-danger">非常に危険レベル3</span></td>
+                <td><strong>絶対外出禁止</strong><br>完全に室内でエアコン必須</td>
+              </tr>
+              <tr class="danger">
+                <td class="temp-range">30-33°C</td>
+                <td><span class="risk-level risk-danger">高危険レベル2</span></td>
+                <td><strong>外出禁止</strong><br>室内でエアコン必須</td>
+              </tr>
+              <tr class="danger">
+                <td class="temp-range">27-30°C</td>
+                <td><span class="risk-level risk-danger">危険レベル1</span></td>
+                <td><strong>激しい運動禁止</strong><br>短時間外出のみ</td>
+              </tr>
+              <tr class="severe">
+                <td class="temp-range">24-27°C</td>
+                <td><span class="risk-level risk-severe">厳重警戒</span></td>
+                <td><strong>運動制限</strong><br>積極的な休憩</td>
+              </tr>
+              <tr class="warning">
+                <td class="temp-range">21-24°C</td>
+                <td><span class="risk-level risk-warning">警戒</span></td>
+                <td><strong>運動時注意</strong><br>定期的な水分補給</td>
+              </tr>
+              <tr class="caution">
+                <td class="temp-range">18-21°C</td>
+                <td><span class="risk-level risk-warning">注意</span></td>
+                <td><strong>適度な注意</strong><br>長時間運動は避ける</td>
+              </tr>
+              <tr class="caution">
+                <td class="temp-range">18°C未満</td>
+                <td><span class="risk-level risk-caution">ほぼ安全</span></td>
+                <td><strong>通常の活動可</strong><br>適宜水分補給</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="reference-note">
+          <p><strong>重要：</strong>この基準は一般的な成人向け暑さ指数(WBGT基準)（31°C: 危険、28°C: 厳重警戒など）よりも大幅に厳格です。</p>
+          <p><strong>理由：</strong>子供は体温調節機能が未熟で、身長が低いため地面からの輻射熱の影響を強く受けるため、より早い段階でのリスク警告が必要です。</p>
+        </div>
+
+        <h4>AI判定のポイント</h4>
+        <ul>
+          <li><strong>年齢別閾値</strong>：選択された年齢グループに応じて判定基準を自動調整</li>
+          <li><strong>総合判定</strong>：暑さ指数(WBGT値)、湿度、気温、風速などを総合的に分析</li>
+          <li><strong>画像解析</strong>：外出前後の写真から体調変化を検出（オプション）</li>
+          <li><strong>個別アドバイス</strong>：年齢と環境条件に応じた具体的な対策を提案</li>
+        </ul>
+
+        <h4>判定の信頼性向上</h4>
+        <ul>
+          <li><strong>気象庁データ</strong>：リアルタイムの正確な気象情報を使用</li>
+          <li><strong>継続的改善</strong>：AIモデルは使用データに基づいて継続的に改良</li>
+        </ul>
+
+       
+      </div>
+    </div>
+  </div>
+
+  <!-- 熱中症症状モーダル -->
+  <div class="modal" id="symptomsModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>症状と対処法</h3>
+        <button class="close-btn" onclick="closeModal('symptomsModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>症状のチェック</h4>
+        
+                  <div class="wbgt-scale">
+            <div class="wbgt-item wbgt-danger">
+              <strong>重症（Ⅲ度）- 即座に救急車</strong><br>
+              意識障害、けいれん、高体温、呼びかけに応じない
+            </div>
+            <div class="wbgt-item wbgt-severe">
+              <strong>中等症（Ⅱ度）- 医療機関へ</strong><br>
+              頭痛、嘔吐、倦怠感、虚脱感、集中力低下
+            </div>
+            <div class="wbgt-item wbgt-warning">
+              <strong>軽症（Ⅰ度）- 現場で対応</strong><br>
+              めまい、立ちくらみ、筋肉痛、大量の発汗
+            </div>
+          </div>
+
+        <h4>応急処置</h4>
+        <ol>
+          <li><strong>涼しい場所に移動</strong> - エアコンの効いた室内、木陰など</li>
+          <li><strong>衣服を緩める</strong> - 熱を逃がしやすくする</li>
+          <li><strong>体を冷やす</strong> - 首、脇の下、太ももの付け根</li>
+          <li><strong>水分・塩分補給</strong> - 意識がある場合のみ</li>
+          <li><strong>医療機関受診</strong> - 症状が改善しない場合</li>
+        </ol>
+
+        <h4>子供の特徴的な症状</h4>
+        <ul>
+          <li>ぐったりしている、元気がない</li>
+          <li>泣き声が弱い、いつもと違う</li>
+          <li>発汗が異常に多い、または全く出ない</li>
+          <li>おしっこが出ない（脱水症状）</li>
+          <li>機嫌が悪い、食欲がない</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 予防方法モーダル -->
+  <div class="modal" id="preventionModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>予防方法</h3>
+        <button class="close-btn" onclick="closeModal('preventionModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>水分補給のポイント</h4>
+        <ul>
+          <li><strong>のどが渇く前に</strong>定期的に水分補給</li>
+          <li><strong>1時間にコップ1-2杯</strong>が目安</li>
+          <li><strong>スポーツドリンク</strong>で塩分も一緒に</li>
+          <li><strong>アルコール・カフェイン</strong>は避ける</li>
+        </ul>
+
+        <h4>服装の工夫</h4>
+        <ul>
+          <li><strong>薄着・軽装</strong> - 風通しの良い服</li>
+          <li><strong>白や淡色</strong> - 熱を吸収しにくい色</li>
+          <li><strong>帽子・日傘</strong> - 直射日光を避ける</li>
+          <li><strong>吸汗・速乾素材</strong> - 汗を効率的に発散</li>
+        </ul>
+
+        <h4>環境づくり</h4>
+        <ul>
+          <li><strong>エアコン活用</strong> - 我慢せず適切に使用</li>
+          <li><strong>扇風機</strong> - 空気を循環させる</li>
+          <li><strong>すだれ・カーテン</strong> - 窓からの日差しを遮る</li>
+          <li><strong>保冷グッズ</strong> - 首元や手首を冷やす</li>
+        </ul>
+
+        <h4>子供のための特別な予防策</h4>
+        <ul>
+          <li><strong>外出時間</strong> - 10-16時の外出は控える</li>
+          <li><strong>ベビーカー</strong> - 地面に近く高温、こまめな確認を</li>
+          <li><strong>車内放置厳禁</strong> - 短時間でも危険</li>
+          <li><strong>水遊び</strong> - 体温を下げる遊びを取り入れる</li>
+          <li><strong>観察</strong> - 普段と違う様子がないか常にチェック</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- このアプリについてモーダル -->
+  <div class="modal" id="aboutModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>アプリについて</h3>
+        <button class="close-btn" onclick="closeModal('aboutModal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>あついよ！熱中症みまもりAI</h4>
+        <p>このアプリは、お子様の熱中症リスクを予測し、適切な対策をアドバイスするAIシステムです。</p>
+
+        <h4>主な機能</h4>
+        <ul>
+          <li><strong>年齢別リスク判定</strong> - 0-6歳の年齢グループに対応</li>
+          <li><strong>写真による変化分析</strong> - 外出前後の状態を比較</li>
+          <li><strong>リアルタイム予測</strong> - 現在の環境条件から即座に判定</li>
+          <li><strong>具体的なアドバイス</strong> - 状況に応じた対策を提案</li>
+        </ul>
+
+        <h4>重要な注意事項</h4>
+        <div class="wbgt-item wbgt-danger">
+          このアプリは参考情報を提供するものです。<br>
+          <strong>緊急時は迷わず医療機関を受診してください。</strong>
+        </div>
+
+        <h4>緊急連絡先</h4>
+        <ul>
+          <li><strong>救急車</strong>: 119</li>
+          <li><strong>医療相談</strong>: #7119（救急安心センター）</li>
+          <li><strong>子ども医療相談</strong>: #8000</li>
+        </ul>
+
+        <h4>開発について</h4>
+        <p>このアプリは、子供たちの安全な夏を願って開発されました。<br>
+        最新の気象データとAI技術を組み合わせ、より精度の高い予測を目指しています。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>あついよ！熱中症みまもりAI</h1>
+    
+    <div class="form-group">
+      <label for="ageGroup">対象年齢グループを選択:</label>
+      <div class="age-group-container">
+        <div class="age-group-option">
+          <input type="radio" id="ageGroup0-1" name="ageGroup" value="0-1">
+          <label for="ageGroup0-1" class="age-group-label">0-1歳</label>
+          <div class="age-group-description">身長約0.6-0.8m<br>体調について伝えられない</div>
+        </div>
+        <div class="age-group-option selected">
+          <input type="radio" id="ageGroup2-3" name="ageGroup" value="2-3" checked>
+          <label for="ageGroup2-3" class="age-group-label">2-3歳</label>
+          <div class="age-group-description">身長約0.8-1.0m<br>体調の前兆がわからない</div>
+        </div>
+        <div class="age-group-option">
+          <input type="radio" id="ageGroup4-6" name="ageGroup" value="4-6">
+          <label for="ageGroup4-6" class="age-group-label">4-6歳</label>
+          <div class="age-group-description">身長約1.0-1.2m<br>ある程度伝えられる</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- GPS位置情報・観測所選択機能 -->
+    <div class="form-group">
+      <label>観測所の選択:</label>
+      <div class="location-container">
+        <div id="locationStatus" class="location-status warning">
+          <span class="status-icon"></span> 起動時に位置情報を自動取得中...
+        </div>
+        
+        <div class="location-buttons">
+          <button type="button" id="getLocationBtn" class="location-btn" disabled>
+            自動取得中...
+          </button>
+          <button type="button" id="manualBtn" class="location-btn manual">
+            手動選択
+          </button>
+        </div>
+        
+        <!-- 位置情報詳細 -->
+        <div id="locationInfo" class="location-info" style="display: none;">
+          <h4>選択された観測所</h4>
+          <div class="location-details-grid">
+            <div class="location-detail">
+              <span class="location-detail-label">観測所:</span>
+              <span class="location-detail-value" id="stationName">-</span>
+            </div>
+            <div class="location-detail">
+              <span class="location-detail-label">距離:</span>
+              <span class="location-detail-value"><span id="stationDistance">-</span>km</span>
+            </div>
+          </div>
+          <div class="location-coordinates">
+            緯度: <span id="stationLat">-</span> / 経度: <span id="stationLng">-</span> / 精度: <span id="locationAccuracy">-</span>m
+          </div>
+        </div>
+        
+        <!-- 手動選択エリア -->
+        <div id="manualSelect" class="manual-select">
+          <h4>手動で観測所を選択</h4>
+          <div class="select-group">
+            <label for="prefectureSelect">都道府県:</label>
+            <select id="prefectureSelect" class="location-select">
+              <option value="">都道府県を選択</option>
+              <!-- 北海道・東北 -->
+              <option value="hokkaido">北海道</option>
+              <option value="aomori">青森県</option>
+              <option value="iwate">岩手県</option>
+              <option value="miyagi">宮城県</option>
+              <option value="akita">秋田県</option>
+              <option value="yamagata">山形県</option>
+              <option value="fukushima">福島県</option>
+              <!-- 関東 -->
+              <option value="ibaraki">茨城県</option>
+              <option value="tochigi">栃木県</option>
+              <option value="gunma">群馬県</option>
+              <option value="saitama">埼玉県</option>
+              <option value="chiba">千葉県</option>
+              <option value="tokyo">東京都</option>
+              <option value="kanagawa">神奈川県</option>
+              <!-- 中部 -->
+              <option value="niigata">新潟県</option>
+              <option value="toyama">富山県</option>
+              <option value="ishikawa">石川県</option>
+              <option value="fukui">福井県</option>
+              <option value="yamanashi">山梨県</option>
+              <option value="nagano">長野県</option>
+              <option value="gifu">岐阜県</option>
+              <option value="shizuoka">静岡県</option>
+              <option value="aichi">愛知県</option>
+              <!-- 近畿 -->
+              <option value="mie">三重県</option>
+              <option value="shiga">滋賀県</option>
+              <option value="kyoto">京都府</option>
+              <option value="osaka">大阪府</option>
+              <option value="hyogo">兵庫県</option>
+              <option value="nara">奈良県</option>
+              <option value="wakayama">和歌山県</option>
+              <!-- 中国 -->
+              <option value="tottori">鳥取県</option>
+              <option value="shimane">島根県</option>
+              <option value="okayama">岡山県</option>
+              <option value="hiroshima">広島県</option>
+              <option value="yamaguchi">山口県</option>
+              <!-- 四国 -->
+              <option value="tokushima">徳島県</option>
+              <option value="kagawa">香川県</option>
+              <option value="ehime">愛媛県</option>
+              <option value="kochi">高知県</option>
+              <!-- 九州・沖縄 -->
+              <option value="fukuoka">福岡県</option>
+              <option value="saga">佐賀県</option>
+              <option value="nagasaki">長崎県</option>
+              <option value="kumamoto">熊本県</option>
+              <option value="oita">大分県</option>
+              <option value="miyazaki">宮崎県</option>
+              <option value="kagoshima">鹿児島県</option>
+              <option value="okinawa">沖縄県</option>
+            </select>
+          </div>
+          <div class="select-group">
+            <label for="stationSelect">観測所:</label>
+            <select id="stationSelect" class="location-select" style="display: none;">
+              <option value="">観測所を選択</option>
+            </select>
+          </div>
+        </div>
+        
+        <div style="font-size: 12px; color: #666; text-align: center; margin-top: 12px;">
+          現在地を取得すると、最寄りの観測所の気象データで判定します
+        </div>
+      </div>
+    </div>
+    
+    <!-- 画像撮影・アップロード機能 -->
+    <div class="form-group">
+      <label>体調変化の分析（オプション）:</label>
+      <div class="image-capture-container">
+
+        
+        <!-- 外出前画像セクション -->
+        <div class="image-section" id="beforeSection">
+          <div class="section-header">
+            <h4 style="margin: 0; color: #28a745; display: flex; align-items: center; gap: 8px;">
+              外出前の記録
+              <span id="beforeStatus" class="status-badge status-pending">未撮影</span>
+            </h4>
+            <small style="color: #666;">外出前の環境・お子様の様子を記録してください</small>
+          </div>
+        
+          <div class="image-buttons">
+            <input type="file" id="beforeFileInput" accept="image/*" style="display: none;">
+            <div id="beforePhotoButton" class="photo-upload-area" onclick="document.getElementById('beforeFileInput').click()">
+              <div class="upload-icon"></div>
+              <div class="upload-text">撮影または写真を選択</div>
+            </div>
+          </div>
+        
+          <!-- 外出前画像プレビュー -->
+          <div id="beforeImagePreview" class="image-preview" style="display: none;">
+            <img id="beforePreviewImage" alt="外出前の画像">
+            <div class="image-info">
+              <p id="beforeImageInfo">外出前の画像が選択されています</p>
+              <button type="button" id="beforeRemoveImage" class="image-btn remove-btn">削除</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 帰宅後画像セクション -->
+        <div class="image-section" id="afterSection">
+          <div class="section-header">
+            <h4 style="margin: 0; color: #dc3545; display: flex; align-items: center; gap: 8px;">
+              帰宅後の記録
+              <span id="afterStatus" class="status-badge status-pending">未撮影</span>
+            </h4>
+            <small style="color: #666;">帰宅後の環境・お子様の様子を記録してください</small>
+          </div>
+          
+          <div class="image-buttons">
+            <input type="file" id="afterFileInput" accept="image/*" style="display: none;">
+            <div id="afterPhotoButton" class="photo-upload-area" onclick="document.getElementById('afterFileInput').click()">
+              <div class="upload-icon"></div>
+              <div class="upload-text">撮影または写真を選択</div>
+            </div>
+          </div>
+        
+          <!-- 帰宅後画像プレビュー -->
+          <div id="afterImagePreview" class="image-preview" style="display: none;">
+            <img id="afterPreviewImage" alt="帰宅後の画像">
+            <div class="image-info">
+              <p id="afterImageInfo">帰宅後の画像が選択されています</p>
+              <button type="button" id="afterRemoveImage" class="image-btn remove-btn">削除</button>
+            </div>
+          </div>
+        </div>
+        
+
+        
+        <!-- 画像比較プレビュー -->
+        <div id="imageComparison" class="image-comparison" style="display: none;">
+          <div class="comparison-header">
+            <h4>外出前後の比較</h4>
+          </div>
+          <div class="comparison-images">
+            <div class="comparison-image-container">
+              <img id="comparisonBefore" class="comparison-image" alt="外出前">
+              <div class="comparison-label">外出前</div>
+              <div id="beforeTimestamp" class="timestamp"></div>
+            </div>
+            <div class="comparison-arrow">➜</div>
+            <div class="comparison-image-container">
+              <img id="comparisonAfter" class="comparison-image" alt="帰宅後">
+              <div class="comparison-label">帰宅後</div>
+              <div id="afterTimestamp" class="timestamp"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="file-format-info" style="text-align: center; margin: 8px 0; font-size: 14px; color: #666; font-weight: 600;">
+          <div style="margin-bottom: 6px; font-size: 11px;">
+            対応形式: JPEG, PNG, WebP | 推奨サイズ: 5MB以下 | 2枚の画像で差分分析が可能
+          </div>
+          <div style="font-size: 12px; color: #28a745; line-height: 1.4;">
+            Google Gemini AIで安全に分析（Googleのプライバシーポリシーに準拠）<br>
+            画像は熱中症リスク判定のみに使用され、個人の特定や他の用途には使用されません<br>
+            分析完了後、画像データは自動的に破棄されるため、安心してご利用ください
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <button id="fetchButton">外遊び危険レベル判定</button>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

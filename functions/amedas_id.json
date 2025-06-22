@@ -1,0 +1,3218 @@
+[
+  {
+    "id": "11016",
+    "name": "稚内",
+    "lat": 45.415,
+    "lng": 141.6783,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "11046",
+    "name": "礼文",
+    "lat": 45.305,
+    "lng": 141.045,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "11206",
+    "name": "浜頓別",
+    "lat": 45.3356,
+    "lng": 142.1703,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "11276",
+    "name": "中頓別",
+    "lat": 45.1167,
+    "lng": 142.2167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "13181",
+    "name": "羽幌",
+    "lat": 44.3667,
+    "lng": 141.6833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "13086",
+    "name": "遠別",
+    "lat": 44.7167,
+    "lng": 141.8833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "13277",
+    "name": "留萌",
+    "lat": 43.9333,
+    "lng": 141.6333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "13311",
+    "name": "増毛",
+    "lat": 43.85,
+    "lng": 141.5167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "15161",
+    "name": "深川",
+    "lat": 43.7167,
+    "lng": 142.05,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12442",
+    "name": "旭川",
+    "lat": 43.7539,
+    "lng": 142.365,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12181",
+    "name": "名寄",
+    "lat": 44.35,
+    "lng": 142.4667,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12231",
+    "name": "下川",
+    "lat": 44.4167,
+    "lng": 142.65,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12261",
+    "name": "士別",
+    "lat": 44.1833,
+    "lng": 142.4,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12301",
+    "name": "和寒",
+    "lat": 44.2,
+    "lng": 142.45,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12396",
+    "name": "比布",
+    "lat": 43.85,
+    "lng": 142.4833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12411",
+    "name": "上川",
+    "lat": 43.8333,
+    "lng": 142.7667,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "15041",
+    "name": "朱鞠内",
+    "lat": 44.2333,
+    "lng": 142.1833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "15076",
+    "name": "幌加内",
+    "lat": 44.0167,
+    "lng": 142.15,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12141",
+    "name": "美深",
+    "lat": 44.4833,
+    "lng": 142.5333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12041",
+    "name": "音威子府",
+    "lat": 44.8167,
+    "lng": 142.2333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12011",
+    "name": "中川",
+    "lat": 45.0833,
+    "lng": 142.1167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "13011",
+    "name": "幌延",
+    "lat": 45.0167,
+    "lng": 141.85,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "11176",
+    "name": "豊富",
+    "lat": 45.1,
+    "lng": 141.7667,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "11496",
+    "name": "猿払",
+    "lat": 45.4167,
+    "lng": 142.2833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "11511",
+    "name": "浜猿払",
+    "lat": 45.4833,
+    "lng": 142.2167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "11001",
+    "name": "宗谷岬",
+    "lat": 45.52,
+    "lng": 141.935,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "11291",
+    "name": "枝幸",
+    "lat": 45.0667,
+    "lng": 142.5833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "11316",
+    "name": "歌登",
+    "lat": 45.0167,
+    "lng": 142.7167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17076",
+    "name": "興部",
+    "lat": 44.3833,
+    "lng": 143.1167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17036",
+    "name": "雄武",
+    "lat": 44.5833,
+    "lng": 142.9667,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17112",
+    "name": "紋別",
+    "lat": 44.35,
+    "lng": 143.35,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17196",
+    "name": "滝上",
+    "lat": 44.2333,
+    "lng": 142.8833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17091",
+    "name": "西興部",
+    "lat": 44.2167,
+    "lng": 143.1167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17306",
+    "name": "遠軽",
+    "lat": 44.0667,
+    "lng": 143.5167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17501",
+    "name": "生田原",
+    "lat": 43.9,
+    "lng": 143.6833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17316",
+    "name": "佐呂間",
+    "lat": 44.0167,
+    "lng": 143.7833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17166",
+    "name": "湧別",
+    "lat": 44.1167,
+    "lng": 143.6667,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17246",
+    "name": "常呂",
+    "lat": 44.0833,
+    "lng": 144.0167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17521",
+    "name": "北見",
+    "lat": 43.8167,
+    "lng": 143.9,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17596",
+    "name": "留辺蘂",
+    "lat": 43.7333,
+    "lng": 143.6833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17631",
+    "name": "美幌",
+    "lat": 43.8167,
+    "lng": 144.1167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17717",
+    "name": "津別",
+    "lat": 43.6333,
+    "lng": 144.0,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17531",
+    "name": "女満別",
+    "lat": 43.9167,
+    "lng": 144.1667,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17341",
+    "name": "網走",
+    "lat": 44.0167,
+    "lng": 144.2833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17546",
+    "name": "小清水",
+    "lat": 43.9,
+    "lng": 144.4833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17561",
+    "name": "斜里",
+    "lat": 43.9167,
+    "lng": 144.8167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "18038",
+    "name": "羅臼",
+    "lat": 44.0167,
+    "lng": 145.1833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "18136",
+    "name": "標津",
+    "lat": 43.6667,
+    "lng": 145.0833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "18273",
+    "name": "根室",
+    "lat": 43.3333,
+    "lng": 145.5833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "18281",
+    "name": "納沙布",
+    "lat": 43.3833,
+    "lng": 145.7333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "18256",
+    "name": "別海",
+    "lat": 43.4,
+    "lng": 145.1167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "18171",
+    "name": "中標津",
+    "lat": 43.5833,
+    "lng": 144.9667,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "19151",
+    "name": "標茶",
+    "lat": 43.2833,
+    "lng": 144.5333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "19051",
+    "name": "弟子屈",
+    "lat": 43.4833,
+    "lng": 144.4667,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "19021",
+    "name": "川湯",
+    "lat": 43.6167,
+    "lng": 144.4333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "19076",
+    "name": "阿寒湖畔",
+    "lat": 43.4333,
+    "lng": 144.1,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "19432",
+    "name": "釧路",
+    "lat": 42.9847,
+    "lng": 144.3831,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "19376",
+    "name": "太田",
+    "lat": 42.9167,
+    "lng": 144.1833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "19191",
+    "name": "鶴居",
+    "lat": 43.2167,
+    "lng": 144.3333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "19416",
+    "name": "白糠",
+    "lat": 42.85,
+    "lng": 144.0333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12051",
+    "name": "音別",
+    "lat": 42.8833,
+    "lng": 143.8167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20341",
+    "name": "本別",
+    "lat": 43.1167,
+    "lng": 143.6167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20276",
+    "name": "足寄",
+    "lat": 43.25,
+    "lng": 143.55,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20146",
+    "name": "陸別",
+    "lat": 43.4667,
+    "lng": 143.7333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20266",
+    "name": "上士幌",
+    "lat": 43.2333,
+    "lng": 143.3,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20186",
+    "name": "ぬかびら源泉郷",
+    "lat": 43.3333,
+    "lng": 143.1167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20432",
+    "name": "帯広",
+    "lat": 42.9236,
+    "lng": 143.205,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20421",
+    "name": "芽室",
+    "lat": 42.9167,
+    "lng": 143.05,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20371",
+    "name": "駒場",
+    "lat": 42.8833,
+    "lng": 143.1167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20356",
+    "name": "新得",
+    "lat": 43.0833,
+    "lng": 142.8333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20361",
+    "name": "鹿追",
+    "lat": 43.1167,
+    "lng": 143.1333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12216",
+    "name": "然別湖畔",
+    "lat": 43.2,
+    "lng": 143.1833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20556",
+    "name": "糠内",
+    "lat": 42.95,
+    "lng": 142.9833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20696",
+    "name": "大樹",
+    "lat": 42.6167,
+    "lng": 143.2167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20751",
+    "name": "広尾",
+    "lat": 42.2833,
+    "lng": 143.3167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20606",
+    "name": "更別",
+    "lat": 42.7,
+    "lng": 143.15,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12291",
+    "name": "忠類",
+    "lat": 42.6167,
+    "lng": 143.0833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "60216",
+    "name": "大津",
+    "lat": 42.5167,
+    "lng": 143.6167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "22327",
+    "name": "浦河",
+    "lat": 42.1667,
+    "lng": 142.7833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12336",
+    "name": "様似",
+    "lat": 42.1333,
+    "lng": 143.0167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "22391",
+    "name": "えりも岬",
+    "lat": 41.9333,
+    "lng": 143.25,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12366",
+    "name": "新冠",
+    "lat": 42.2333,
+    "lng": 142.35,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "22241",
+    "name": "静内",
+    "lat": 42.3333,
+    "lng": 142.4167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "22291",
+    "name": "三石",
+    "lat": 42.1833,
+    "lng": 142.5833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "22036",
+    "name": "日高",
+    "lat": 42.4833,
+    "lng": 142.0833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "22141",
+    "name": "日高門別",
+    "lat": 42.4167,
+    "lng": 142.1167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "36781",
+    "name": "平取",
+    "lat": 42.6167,
+    "lng": 142.1833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "21126",
+    "name": "穂別",
+    "lat": 42.7167,
+    "lng": 142.0167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "21276",
+    "name": "鵡川",
+    "lat": 42.5833,
+    "lng": 141.9333,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "21111",
+    "name": "厚真",
+    "lat": 42.7167,
+    "lng": 141.8833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "21187",
+    "name": "苫小牧",
+    "lat": 42.6333,
+    "lng": 141.6167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "21261",
+    "name": "白老",
+    "lat": 42.55,
+    "lng": 141.35,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "21161",
+    "name": "大滝",
+    "lat": 42.7,
+    "lng": 141.0833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "14286",
+    "name": "支笏湖畔",
+    "lat": 42.75,
+    "lng": 141.3667,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "14296",
+    "name": "千歳",
+    "lat": 42.8,
+    "lng": 141.65,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "14206",
+    "name": "恵庭島松",
+    "lat": 42.8167,
+    "lng": 141.5833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12591",
+    "name": "追分",
+    "lat": 42.85,
+    "lng": 141.8167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "15442",
+    "name": "夕張",
+    "lat": 43.0667,
+    "lng": 141.9833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "15356",
+    "name": "岩見沢",
+    "lat": 43.2,
+    "lng": 141.7833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "15321",
+    "name": "美唄",
+    "lat": 43.3667,
+    "lng": 141.8833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "15311",
+    "name": "月形",
+    "lat": 43.35,
+    "lng": 141.6167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "15241",
+    "name": "滝川",
+    "lat": 43.55,
+    "lng": 142.0,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12681",
+    "name": "砂川",
+    "lat": 43.4833,
+    "lng": 141.9,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "15251",
+    "name": "芦別",
+    "lat": 43.5167,
+    "lng": 142.1833,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "15247",
+    "name": "赤平",
+    "lat": 43.55,
+    "lng": 142.05,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "15442",
+    "name": "夕張岳",
+    "lat": 43.1167,
+    "lng": 142.1167,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "14163",
+    "name": "札幌",
+    "lat": 43.0642,
+    "lng": 141.3469,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "31312",
+    "name": "青森",
+    "lat": 40.8244,
+    "lng": 140.7403,
+    "prefecture": "aomori",
+    "region": "tohoku"
+  },
+  {
+    "id": "31602",
+    "name": "八戸",
+    "lat": 40.5156,
+    "lng": 141.4889,
+    "prefecture": "aomori",
+    "region": "tohoku"
+  },
+  {
+    "id": "33431",
+    "name": "盛岡",
+    "lat": 39.7036,
+    "lng": 141.1528,
+    "prefecture": "iwate",
+    "region": "tohoku"
+  },
+  {
+    "id": "34392",
+    "name": "仙台",
+    "lat": 38.2681,
+    "lng": 140.8719,
+    "prefecture": "miyagi",
+    "region": "tohoku"
+  },
+  {
+    "id": "32402",
+    "name": "秋田",
+    "lat": 39.7181,
+    "lng": 140.1031,
+    "prefecture": "akita",
+    "region": "tohoku"
+  },
+  {
+    "id": "35426",
+    "name": "山形",
+    "lat": 38.2403,
+    "lng": 140.3633,
+    "prefecture": "yamagata",
+    "region": "tohoku"
+  },
+  {
+    "id": "36127",
+    "name": "福島",
+    "lat": 37.7608,
+    "lng": 140.4739,
+    "prefecture": "fukushima",
+    "region": "tohoku"
+  },
+  {
+    "id": "36141",
+    "name": "いわき",
+    "lat": 37.0497,
+    "lng": 140.8889,
+    "prefecture": "fukushima",
+    "region": "tohoku"
+  },
+  {
+    "id": "40201",
+    "name": "水戸",
+    "lat": 36.3661,
+    "lng": 140.4714,
+    "prefecture": "ibaraki",
+    "region": "kanto"
+  },
+  {
+    "id": "41277",
+    "name": "宇都宮",
+    "lat": 36.5581,
+    "lng": 139.8836,
+    "prefecture": "tochigi",
+    "region": "kanto"
+  },
+  {
+    "id": "42251",
+    "name": "前橋",
+    "lat": 36.3972,
+    "lng": 139.0608,
+    "prefecture": "gunma",
+    "region": "kanto"
+  },
+  {
+    "id": "43241",
+    "name": "さいたま",
+    "lat": 35.8617,
+    "lng": 139.6453,
+    "prefecture": "saitama",
+    "region": "kanto"
+  },
+  {
+    "id": "43056",
+    "name": "熊谷",
+    "lat": 36.145,
+    "lng": 139.3886,
+    "prefecture": "saitama",
+    "region": "kanto"
+  },
+  {
+    "id": "45212",
+    "name": "千葉",
+    "lat": 35.6058,
+    "lng": 140.1069,
+    "prefecture": "chiba",
+    "region": "kanto"
+  },
+  {
+    "id": "45148",
+    "name": "銚子",
+    "lat": 35.7344,
+    "lng": 140.8231,
+    "prefecture": "chiba",
+    "region": "kanto"
+  },
+  {
+    "id": "45106",
+    "name": "船橋",
+    "lat": 35.6943,
+    "lng": 139.9833,
+    "prefecture": "chiba",
+    "region": "kanto"
+  },
+  {
+    "id": "45282",
+    "name": "木更津",
+    "lat": 35.3781,
+    "lng": 139.9169,
+    "prefecture": "chiba",
+    "region": "kanto"
+  },
+  {
+    "id": "43266",
+    "name": "所沢",
+    "lat": 35.7992,
+    "lng": 139.4686,
+    "prefecture": "saitama",
+    "region": "kanto"
+  },
+  {
+    "id": "43256",
+    "name": "越谷",
+    "lat": 35.8906,
+    "lng": 139.7906,
+    "prefecture": "saitama",
+    "region": "kanto"
+  },
+  {
+    "id": "67326",
+    "name": "府中",
+    "lat": 35.6697,
+    "lng": 139.4779,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "44112",
+    "name": "八王子",
+    "lat": 35.6561,
+    "lng": 139.3439,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "44132",
+    "name": "東京",
+    "lat": 35.6895,
+    "lng": 139.6917,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "44172",
+    "name": "大手町",
+    "lat": 35.6937,
+    "lng": 139.7656,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "44071",
+    "name": "練馬",
+    "lat": 35.737,
+    "lng": 139.6569,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "46106",
+    "name": "横浜",
+    "lat": 35.4437,
+    "lng": 139.638,
+    "prefecture": "kanagawa",
+    "region": "kanto"
+  },
+  {
+    "id": "74381",
+    "name": "川崎",
+    "lat": 35.5513,
+    "lng": 139.6825,
+    "prefecture": "kanagawa",
+    "region": "kanto"
+  },
+  {
+    "id": "54232",
+    "name": "新潟",
+    "lat": 37.9161,
+    "lng": 139.0364,
+    "prefecture": "niigata",
+    "region": "chubu"
+  },
+  {
+    "id": "55102",
+    "name": "富山",
+    "lat": 36.6959,
+    "lng": 137.2114,
+    "prefecture": "toyama",
+    "region": "chubu"
+  },
+  {
+    "id": "56227",
+    "name": "金沢",
+    "lat": 36.5944,
+    "lng": 136.6256,
+    "prefecture": "ishikawa",
+    "region": "chubu"
+  },
+  {
+    "id": "57066",
+    "name": "福井",
+    "lat": 36.0617,
+    "lng": 136.2233,
+    "prefecture": "fukui",
+    "region": "chubu"
+  },
+  {
+    "id": "49142",
+    "name": "甲府",
+    "lat": 35.6636,
+    "lng": 138.5681,
+    "prefecture": "yamanashi",
+    "region": "chubu"
+  },
+  {
+    "id": "48156",
+    "name": "長野",
+    "lat": 36.6513,
+    "lng": 138.1811,
+    "prefecture": "nagano",
+    "region": "chubu"
+  },
+  {
+    "id": "48361",
+    "name": "松本",
+    "lat": 36.2478,
+    "lng": 137.9719,
+    "prefecture": "nagano",
+    "region": "chubu"
+  },
+  {
+    "id": "52586",
+    "name": "岐阜",
+    "lat": 35.3914,
+    "lng": 136.7222,
+    "prefecture": "gifu",
+    "region": "chubu"
+  },
+  {
+    "id": "50331",
+    "name": "静岡",
+    "lat": 34.9756,
+    "lng": 138.3831,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "50456",
+    "name": "浜松",
+    "lat": 34.7108,
+    "lng": 137.7347,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "51106",
+    "name": "名古屋",
+    "lat": 35.1815,
+    "lng": 136.9066,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "81266",
+    "name": "豊田",
+    "lat": 35.083,
+    "lng": 137.1561,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "53133",
+    "name": "津",
+    "lat": 34.7303,
+    "lng": 136.5086,
+    "prefecture": "mie",
+    "region": "kansai"
+  },
+  {
+    "id": "60216",
+    "name": "大津",
+    "lat": 35.0047,
+    "lng": 135.8681,
+    "prefecture": "shiga",
+    "region": "kansai"
+  },
+  {
+    "id": "61286",
+    "name": "京都",
+    "lat": 35.0119,
+    "lng": 135.7681,
+    "prefecture": "kyoto",
+    "region": "kansai"
+  },
+  {
+    "id": "62078",
+    "name": "大阪",
+    "lat": 34.6937,
+    "lng": 135.5023,
+    "prefecture": "osaka",
+    "region": "kansai"
+  },
+  {
+    "id": "62046",
+    "name": "枚方",
+    "lat": 34.8118,
+    "lng": 135.6506,
+    "prefecture": "osaka",
+    "region": "kansai"
+  },
+  {
+    "id": "63518",
+    "name": "神戸",
+    "lat": 34.6913,
+    "lng": 135.1831,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  },
+  {
+    "id": "64036",
+    "name": "奈良",
+    "lat": 34.6851,
+    "lng": 135.8048,
+    "prefecture": "nara",
+    "region": "kansai"
+  },
+  {
+    "id": "65042",
+    "name": "和歌山",
+    "lat": 34.2331,
+    "lng": 135.1669,
+    "prefecture": "wakayama",
+    "region": "kansai"
+  },
+  {
+    "id": "69122",
+    "name": "鳥取",
+    "lat": 35.5036,
+    "lng": 134.2381,
+    "prefecture": "tottori",
+    "region": "chugoku"
+  },
+  {
+    "id": "68132",
+    "name": "松江",
+    "lat": 35.4722,
+    "lng": 133.0506,
+    "prefecture": "shimane",
+    "region": "chugoku"
+  },
+  {
+    "id": "66408",
+    "name": "岡山",
+    "lat": 34.6617,
+    "lng": 133.935,
+    "prefecture": "okayama",
+    "region": "chugoku"
+  },
+  {
+    "id": "67437",
+    "name": "広島",
+    "lat": 34.3853,
+    "lng": 132.4553,
+    "prefecture": "hiroshima",
+    "region": "chugoku"
+  },
+  {
+    "id": "81428",
+    "name": "下関",
+    "lat": 33.9569,
+    "lng": 130.9406,
+    "prefecture": "yamaguchi",
+    "region": "chugoku"
+  },
+  {
+    "id": "71106",
+    "name": "徳島",
+    "lat": 34.0658,
+    "lng": 134.5594,
+    "prefecture": "tokushima",
+    "region": "shikoku"
+  },
+  {
+    "id": "72086",
+    "name": "高松",
+    "lat": 34.3428,
+    "lng": 134.0431,
+    "prefecture": "kagawa",
+    "region": "shikoku"
+  },
+  {
+    "id": "73166",
+    "name": "松山",
+    "lat": 33.8417,
+    "lng": 132.7658,
+    "prefecture": "ehime",
+    "region": "shikoku"
+  },
+  {
+    "id": "74182",
+    "name": "高知",
+    "lat": 33.5597,
+    "lng": 133.5311,
+    "prefecture": "kochi",
+    "region": "shikoku"
+  },
+  {
+    "id": "82182",
+    "name": "福岡",
+    "lat": 33.5819,
+    "lng": 130.4011,
+    "prefecture": "fukuoka",
+    "region": "kyushu"
+  },
+  {
+    "id": "82281",
+    "name": "北九州",
+    "lat": 33.8765,
+    "lng": 130.8751,
+    "prefecture": "fukuoka",
+    "region": "kyushu"
+  },
+  {
+    "id": "85142",
+    "name": "佐賀",
+    "lat": 33.2497,
+    "lng": 130.3028,
+    "prefecture": "saga",
+    "region": "kyushu"
+  },
+  {
+    "id": "84496",
+    "name": "長崎",
+    "lat": 32.7503,
+    "lng": 129.8658,
+    "prefecture": "nagasaki",
+    "region": "kyushu"
+  },
+  {
+    "id": "86141",
+    "name": "熊本",
+    "lat": 32.8031,
+    "lng": 130.7058,
+    "prefecture": "kumamoto",
+    "region": "kyushu"
+  },
+  {
+    "id": "83216",
+    "name": "大分",
+    "lat": 33.2381,
+    "lng": 131.6125,
+    "prefecture": "oita",
+    "region": "kyushu"
+  },
+  {
+    "id": "87376",
+    "name": "宮崎",
+    "lat": 31.9077,
+    "lng": 131.4202,
+    "prefecture": "miyazaki",
+    "region": "kyushu"
+  },
+  {
+    "id": "88317",
+    "name": "鹿児島",
+    "lat": 31.5603,
+    "lng": 130.5581,
+    "prefecture": "kagoshima",
+    "region": "kyushu"
+  },
+  {
+    "id": "91197",
+    "name": "那覇",
+    "lat": 26.2072,
+    "lng": 127.6792,
+    "prefecture": "okinawa",
+    "region": "okinawa"
+  },
+  {
+    "id": "94081",
+    "name": "石垣島",
+    "lat": 24.3364,
+    "lng": 124.1631,
+    "prefecture": "okinawa",
+    "region": "okinawa"
+  },
+  {
+    "id": "16091",
+    "name": "小樽",
+    "lat": 43.1906,
+    "lng": 140.9944,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "21323",
+    "name": "室蘭",
+    "lat": 42.3169,
+    "lng": 140.9742,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "23232",
+    "name": "函館",
+    "lat": 41.7685,
+    "lng": 140.7296,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "23166",
+    "name": "青森南部",
+    "lat": 40.4821,
+    "lng": 140.7403,
+    "prefecture": "aomori",
+    "region": "tohoku"
+  },
+  {
+    "id": "31461",
+    "name": "弘前",
+    "lat": 40.6041,
+    "lng": 140.4769,
+    "prefecture": "aomori",
+    "region": "tohoku"
+  },
+  {
+    "id": "33911",
+    "name": "一関",
+    "lat": 38.9344,
+    "lng": 141.1283,
+    "prefecture": "iwate",
+    "region": "tohoku"
+  },
+  {
+    "id": "34292",
+    "name": "石巻",
+    "lat": 38.4344,
+    "lng": 141.3028,
+    "prefecture": "miyagi",
+    "region": "tohoku"
+  },
+  {
+    "id": "32136",
+    "name": "大館",
+    "lat": 40.2725,
+    "lng": 140.5644,
+    "prefecture": "akita",
+    "region": "tohoku"
+  },
+  {
+    "id": "35141",
+    "name": "鶴岡",
+    "lat": 38.7281,
+    "lng": 139.8256,
+    "prefecture": "yamagata",
+    "region": "tohoku"
+  },
+  {
+    "id": "36361",
+    "name": "会津若松",
+    "lat": 37.4944,
+    "lng": 139.9281,
+    "prefecture": "fukushima",
+    "region": "tohoku"
+  },
+  {
+    "id": "19432",
+    "name": "釧路",
+    "lat": 42.9847,
+    "lng": 144.3819,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "20432",
+    "name": "帯広",
+    "lat": 42.9236,
+    "lng": 143.2053,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "17341",
+    "name": "網走",
+    "lat": 44.0197,
+    "lng": 144.2781,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "11016",
+    "name": "稚内",
+    "lat": 45.4153,
+    "lng": 141.6739,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "18273",
+    "name": "根室",
+    "lat": 43.3289,
+    "lng": 145.5856,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "31602",
+    "name": "八戸",
+    "lat": 40.5125,
+    "lng": 141.4889,
+    "prefecture": "aomori",
+    "region": "tohoku"
+  },
+  {
+    "id": "31111",
+    "name": "むつ",
+    "lat": 41.2931,
+    "lng": 141.1836,
+    "prefecture": "aomori",
+    "region": "tohoku"
+  },
+  {
+    "id": "33431",
+    "name": "盛岡",
+    "lat": 39.7036,
+    "lng": 141.1528,
+    "prefecture": "iwate",
+    "region": "tohoku"
+  },
+  {
+    "id": "33877",
+    "name": "大船渡",
+    "lat": 39.0697,
+    "lng": 141.7281,
+    "prefecture": "iwate",
+    "region": "tohoku"
+  },
+  {
+    "id": "34026",
+    "name": "気仙沼",
+    "lat": 38.9078,
+    "lng": 141.5697,
+    "prefecture": "miyagi",
+    "region": "tohoku"
+  },
+  {
+    "id": "32402",
+    "name": "秋田",
+    "lat": 39.7186,
+    "lng": 140.1025,
+    "prefecture": "akita",
+    "region": "tohoku"
+  },
+  {
+    "id": "32596",
+    "name": "横手",
+    "lat": 39.3125,
+    "lng": 140.5456,
+    "prefecture": "akita",
+    "region": "tohoku"
+  },
+  {
+    "id": "35426",
+    "name": "山形",
+    "lat": 38.2403,
+    "lng": 140.3633,
+    "prefecture": "yamagata",
+    "region": "tohoku"
+  },
+  {
+    "id": "35552",
+    "name": "米沢",
+    "lat": 37.9236,
+    "lng": 140.1181,
+    "prefecture": "yamagata",
+    "region": "tohoku"
+  },
+  {
+    "id": "90025",
+    "name": "いわき",
+    "lat": 37.0481,
+    "lng": 140.8869,
+    "prefecture": "fukushima",
+    "region": "tohoku"
+  },
+  {
+    "id": "40201",
+    "name": "水戸",
+    "lat": 36.3414,
+    "lng": 140.4467,
+    "prefecture": "ibaraki",
+    "region": "kanto"
+  },
+  {
+    "id": "40136",
+    "name": "日立",
+    "lat": 36.5997,
+    "lng": 140.6506,
+    "prefecture": "ibaraki",
+    "region": "kanto"
+  },
+  {
+    "id": "40336",
+    "name": "つくば",
+    "lat": 36.0839,
+    "lng": 140.1131,
+    "prefecture": "ibaraki",
+    "region": "kanto"
+  },
+  {
+    "id": "41356",
+    "name": "足利",
+    "lat": 36.3411,
+    "lng": 139.4497,
+    "prefecture": "tochigi",
+    "region": "kanto"
+  },
+  {
+    "id": "41011",
+    "name": "那須",
+    "lat": 37.0431,
+    "lng": 140.0431,
+    "prefecture": "tochigi",
+    "region": "kanto"
+  },
+  {
+    "id": "90031",
+    "name": "高崎",
+    "lat": 36.3225,
+    "lng": 139.0131,
+    "prefecture": "gunma",
+    "region": "kanto"
+  },
+  {
+    "id": "42366",
+    "name": "館林",
+    "lat": 36.2453,
+    "lng": 139.5406,
+    "prefecture": "gunma",
+    "region": "kanto"
+  },
+  {
+    "id": "90033",
+    "name": "川越",
+    "lat": 35.9253,
+    "lng": 139.4856,
+    "prefecture": "saitama",
+    "region": "kanto"
+  },
+  {
+    "id": "43156",
+    "name": "秩父",
+    "lat": 35.9914,
+    "lng": 139.0856,
+    "prefecture": "saitama",
+    "region": "kanto"
+  },
+  {
+    "id": "45212",
+    "name": "千葉",
+    "lat": 35.6075,
+    "lng": 140.1061,
+    "prefecture": "chiba",
+    "region": "kanto"
+  },
+  {
+    "id": "45282",
+    "name": "木更津",
+    "lat": 35.3781,
+    "lng": 139.9181,
+    "prefecture": "chiba",
+    "region": "kanto"
+  },
+  {
+    "id": "45121",
+    "name": "成田",
+    "lat": 35.7764,
+    "lng": 140.3181,
+    "prefecture": "chiba",
+    "region": "kanto"
+  },
+  {
+    "id": "45401",
+    "name": "館山",
+    "lat": 34.9953,
+    "lng": 139.8731,
+    "prefecture": "chiba",
+    "region": "kanto"
+  },
+  {
+    "id": "44112",
+    "name": "八王子",
+    "lat": 35.6558,
+    "lng": 139.3239,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "90040",
+    "name": "立川",
+    "lat": 35.6986,
+    "lng": 139.4131,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "46166",
+    "name": "小田原",
+    "lat": 35.2564,
+    "lng": 139.1556,
+    "prefecture": "kanagawa",
+    "region": "kanto"
+  },
+  {
+    "id": "90042",
+    "name": "厚木",
+    "lat": 35.4431,
+    "lng": 139.3631,
+    "prefecture": "kanagawa",
+    "region": "kanto"
+  },
+  {
+    "id": "90043",
+    "name": "藤沢",
+    "lat": 35.3397,
+    "lng": 139.4889,
+    "prefecture": "kanagawa",
+    "region": "kanto"
+  },
+  {
+    "id": "54501",
+    "name": "長岡",
+    "lat": 37.4464,
+    "lng": 138.8514,
+    "prefecture": "niigata",
+    "region": "chubu"
+  },
+  {
+    "id": "86477",
+    "name": "上越",
+    "lat": 37.1481,
+    "lng": 138.2356,
+    "prefecture": "niigata",
+    "region": "chubu"
+  },
+  {
+    "id": "55102",
+    "name": "富山",
+    "lat": 36.6953,
+    "lng": 137.2131,
+    "prefecture": "toyama",
+    "region": "chubu"
+  },
+  {
+    "id": "90047",
+    "name": "高岡",
+    "lat": 36.7531,
+    "lng": 137.0181,
+    "prefecture": "toyama",
+    "region": "chubu"
+  },
+  {
+    "id": "56227",
+    "name": "金沢",
+    "lat": 36.5944,
+    "lng": 136.6256,
+    "prefecture": "ishikawa",
+    "region": "chubu"
+  },
+  {
+    "id": "56052",
+    "name": "輪島",
+    "lat": 37.3897,
+    "lng": 136.9006,
+    "prefecture": "ishikawa",
+    "region": "chubu"
+  },
+  {
+    "id": "57066",
+    "name": "福井",
+    "lat": 36.0614,
+    "lng": 136.2231,
+    "prefecture": "fukui",
+    "region": "chubu"
+  },
+  {
+    "id": "57248",
+    "name": "敦賀",
+    "lat": 35.6444,
+    "lng": 136.0731,
+    "prefecture": "fukui",
+    "region": "chubu"
+  },
+  {
+    "id": "49142",
+    "name": "甲府",
+    "lat": 35.6639,
+    "lng": 138.5681,
+    "prefecture": "yamanashi",
+    "region": "chubu"
+  },
+  {
+    "id": "49251",
+    "name": "河口湖",
+    "lat": 35.5131,
+    "lng": 138.7631,
+    "prefecture": "yamanashi",
+    "region": "chubu"
+  },
+  {
+    "id": "48156",
+    "name": "長野",
+    "lat": 36.6514,
+    "lng": 138.1811,
+    "prefecture": "nagano",
+    "region": "chubu"
+  },
+  {
+    "id": "48361",
+    "name": "松本",
+    "lat": 36.2381,
+    "lng": 137.9731,
+    "prefecture": "nagano",
+    "region": "chubu"
+  },
+  {
+    "id": "48331",
+    "name": "軽井沢",
+    "lat": 36.3431,
+    "lng": 138.6281,
+    "prefecture": "nagano",
+    "region": "chubu"
+  },
+  {
+    "id": "52586",
+    "name": "岐阜",
+    "lat": 35.3914,
+    "lng": 136.7222,
+    "prefecture": "gifu",
+    "region": "chubu"
+  },
+  {
+    "id": "52146",
+    "name": "高山",
+    "lat": 36.1431,
+    "lng": 137.2531,
+    "prefecture": "gifu",
+    "region": "chubu"
+  },
+  {
+    "id": "50331",
+    "name": "静岡",
+    "lat": 34.9756,
+    "lng": 138.3831,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "50456",
+    "name": "浜松",
+    "lat": 34.7108,
+    "lng": 137.7264,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "53133",
+    "name": "沼津",
+    "lat": 35.0956,
+    "lng": 138.8631,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "91081",
+    "name": "伊東",
+    "lat": 34.9656,
+    "lng": 139.0981,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "51331",
+    "name": "豊橋",
+    "lat": 34.7692,
+    "lng": 137.3914,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "51226",
+    "name": "岡崎",
+    "lat": 34.9553,
+    "lng": 137.1731,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "63251",
+    "name": "一宮",
+    "lat": 35.3031,
+    "lng": 136.8031,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "53133",
+    "name": "津",
+    "lat": 34.7303,
+    "lng": 136.5086,
+    "prefecture": "mie",
+    "region": "kansai"
+  },
+  {
+    "id": "53061",
+    "name": "四日市",
+    "lat": 34.9656,
+    "lng": 136.6256,
+    "prefecture": "mie",
+    "region": "kansai"
+  },
+  {
+    "id": "42302",
+    "name": "伊勢",
+    "lat": 34.4889,
+    "lng": 136.7131,
+    "prefecture": "mie",
+    "region": "kansai"
+  },
+  {
+    "id": "60216",
+    "name": "大津",
+    "lat": 35.0044,
+    "lng": 135.8681,
+    "prefecture": "shiga",
+    "region": "kansai"
+  },
+  {
+    "id": "60131",
+    "name": "彦根",
+    "lat": 35.2756,
+    "lng": 136.2581,
+    "prefecture": "shiga",
+    "region": "kansai"
+  },
+  {
+    "id": "64036",
+    "name": "奈良",
+    "lat": 34.6853,
+    "lng": 135.8331,
+    "prefecture": "nara",
+    "region": "kansai"
+  },
+  {
+    "id": "90072",
+    "name": "橿原",
+    "lat": 34.5131,
+    "lng": 135.7931,
+    "prefecture": "nara",
+    "region": "kansai"
+  },
+  {
+    "id": "65042",
+    "name": "和歌山",
+    "lat": 34.2264,
+    "lng": 135.1675,
+    "prefecture": "wakayama",
+    "region": "kansai"
+  },
+  {
+    "id": "61326",
+    "name": "田辺",
+    "lat": 33.7331,
+    "lng": 135.3781,
+    "prefecture": "wakayama",
+    "region": "kansai"
+  },
+  {
+    "id": "63383",
+    "name": "姫路",
+    "lat": 34.8161,
+    "lng": 134.6856,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  },
+  {
+    "id": "63496",
+    "name": "明石",
+    "lat": 34.6431,
+    "lng": 134.9981,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  },
+  {
+    "id": "63051",
+    "name": "豊岡",
+    "lat": 35.5456,
+    "lng": 134.8181,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  },
+  {
+    "id": "69122",
+    "name": "鳥取",
+    "lat": 35.5031,
+    "lng": 134.2381,
+    "prefecture": "tottori",
+    "region": "chugoku"
+  },
+  {
+    "id": "69076",
+    "name": "米子",
+    "lat": 35.4331,
+    "lng": 133.3306,
+    "prefecture": "tottori",
+    "region": "chugoku"
+  },
+  {
+    "id": "68156",
+    "name": "出雲",
+    "lat": 35.3681,
+    "lng": 132.7531,
+    "prefecture": "shimane",
+    "region": "chugoku"
+  },
+  {
+    "id": "66408",
+    "name": "岡山",
+    "lat": 34.6617,
+    "lng": 133.9356,
+    "prefecture": "okayama",
+    "region": "chugoku"
+  },
+  {
+    "id": "66446",
+    "name": "倉敷",
+    "lat": 34.5831,
+    "lng": 133.7731,
+    "prefecture": "okayama",
+    "region": "chugoku"
+  },
+  {
+    "id": "66186",
+    "name": "津山",
+    "lat": 35.0631,
+    "lng": 134.0031,
+    "prefecture": "okayama",
+    "region": "chugoku"
+  },
+  {
+    "id": "67401",
+    "name": "福山",
+    "lat": 34.4856,
+    "lng": 133.3631,
+    "prefecture": "hiroshima",
+    "region": "chugoku"
+  },
+  {
+    "id": "67511",
+    "name": "呉",
+    "lat": 34.2331,
+    "lng": 132.5631,
+    "prefecture": "hiroshima",
+    "region": "chugoku"
+  },
+  {
+    "id": "90086",
+    "name": "尾道",
+    "lat": 34.4081,
+    "lng": 133.2031,
+    "prefecture": "hiroshima",
+    "region": "chugoku"
+  },
+  {
+    "id": "90087",
+    "name": "周南",
+    "lat": 34.0531,
+    "lng": 131.8031,
+    "prefecture": "yamaguchi",
+    "region": "chugoku"
+  },
+  {
+    "id": "81436",
+    "name": "宇部",
+    "lat": 33.9531,
+    "lng": 131.2481,
+    "prefecture": "yamaguchi",
+    "region": "chugoku"
+  },
+  {
+    "id": "81071",
+    "name": "萩",
+    "lat": 34.4131,
+    "lng": 131.4031,
+    "prefecture": "yamaguchi",
+    "region": "chugoku"
+  },
+  {
+    "id": "48836",
+    "name": "阿南",
+    "lat": 33.9181,
+    "lng": 134.6581,
+    "prefecture": "tokushima",
+    "region": "shikoku"
+  },
+  {
+    "id": "90091",
+    "name": "鳴門",
+    "lat": 34.1731,
+    "lng": 134.6081,
+    "prefecture": "tokushima",
+    "region": "shikoku"
+  },
+  {
+    "id": "90092",
+    "name": "丸亀",
+    "lat": 34.2881,
+    "lng": 133.7981,
+    "prefecture": "kagawa",
+    "region": "shikoku"
+  },
+  {
+    "id": "90093",
+    "name": "観音寺",
+    "lat": 34.1281,
+    "lng": 133.6631,
+    "prefecture": "kagawa",
+    "region": "shikoku"
+  },
+  {
+    "id": "73076",
+    "name": "今治",
+    "lat": 34.0656,
+    "lng": 132.9981,
+    "prefecture": "ehime",
+    "region": "shikoku"
+  },
+  {
+    "id": "73141",
+    "name": "新居浜",
+    "lat": 33.9431,
+    "lng": 133.2831,
+    "prefecture": "ehime",
+    "region": "shikoku"
+  },
+  {
+    "id": "73442",
+    "name": "宇和島",
+    "lat": 33.2231,
+    "lng": 132.5631,
+    "prefecture": "ehime",
+    "region": "shikoku"
+  },
+  {
+    "id": "74372",
+    "name": "室戸",
+    "lat": 33.2931,
+    "lng": 134.1631,
+    "prefecture": "kochi",
+    "region": "shikoku"
+  },
+  {
+    "id": "74456",
+    "name": "中村",
+    "lat": 32.9931,
+    "lng": 132.9331,
+    "prefecture": "kochi",
+    "region": "shikoku"
+  },
+  {
+    "id": "74311",
+    "name": "須崎",
+    "lat": 33.4031,
+    "lng": 133.2831,
+    "prefecture": "kochi",
+    "region": "shikoku"
+  },
+  {
+    "id": "82306",
+    "name": "久留米",
+    "lat": 33.3181,
+    "lng": 130.5081,
+    "prefecture": "fukuoka",
+    "region": "kyushu"
+  },
+  {
+    "id": "82136",
+    "name": "飯塚",
+    "lat": 33.6431,
+    "lng": 130.6881,
+    "prefecture": "fukuoka",
+    "region": "kyushu"
+  },
+  {
+    "id": "82361",
+    "name": "大牟田",
+    "lat": 33.0331,
+    "lng": 130.4581,
+    "prefecture": "fukuoka",
+    "region": "kyushu"
+  },
+  {
+    "id": "85033",
+    "name": "唐津",
+    "lat": 33.4531,
+    "lng": 129.9681,
+    "prefecture": "saga",
+    "region": "kyushu"
+  },
+  {
+    "id": "85106",
+    "name": "鳥栖",
+    "lat": 33.3781,
+    "lng": 130.5081,
+    "prefecture": "saga",
+    "region": "kyushu"
+  },
+  {
+    "id": "84266",
+    "name": "佐世保",
+    "lat": 33.1781,
+    "lng": 129.7231,
+    "prefecture": "nagasaki",
+    "region": "kyushu"
+  },
+  {
+    "id": "84523",
+    "name": "島原",
+    "lat": 32.7881,
+    "lng": 130.3681,
+    "prefecture": "nagasaki",
+    "region": "kyushu"
+  },
+  {
+    "id": "90107",
+    "name": "対馬",
+    "lat": 34.2031,
+    "lng": 129.2881,
+    "prefecture": "nagasaki",
+    "region": "kyushu"
+  },
+  {
+    "id": "90108",
+    "name": "五島",
+    "lat": 32.6931,
+    "lng": 128.8431,
+    "prefecture": "nagasaki",
+    "region": "kyushu"
+  },
+  {
+    "id": "86336",
+    "name": "八代",
+    "lat": 32.5081,
+    "lng": 130.6031,
+    "prefecture": "kumamoto",
+    "region": "kyushu"
+  },
+  {
+    "id": "90110",
+    "name": "天草",
+    "lat": 32.4631,
+    "lng": 130.1931,
+    "prefecture": "kumamoto",
+    "region": "kyushu"
+  },
+  {
+    "id": "86111",
+    "name": "阿蘇",
+    "lat": 32.9531,
+    "lng": 131.1031,
+    "prefecture": "kumamoto",
+    "region": "kyushu"
+  },
+  {
+    "id": "88392",
+    "name": "別府",
+    "lat": 33.2831,
+    "lng": 131.4931,
+    "prefecture": "oita",
+    "region": "kyushu"
+  },
+  {
+    "id": "83051",
+    "name": "中津",
+    "lat": 33.5981,
+    "lng": 131.1881,
+    "prefecture": "oita",
+    "region": "kyushu"
+  },
+  {
+    "id": "83401",
+    "name": "佐伯",
+    "lat": 32.9631,
+    "lng": 131.9031,
+    "prefecture": "oita",
+    "region": "kyushu"
+  },
+  {
+    "id": "87141",
+    "name": "延岡",
+    "lat": 32.5831,
+    "lng": 131.6631,
+    "prefecture": "miyazaki",
+    "region": "kyushu"
+  },
+  {
+    "id": "87426",
+    "name": "都城",
+    "lat": 31.7231,
+    "lng": 131.0631,
+    "prefecture": "miyazaki",
+    "region": "kyushu"
+  },
+  {
+    "id": "90117",
+    "name": "日南",
+    "lat": 31.5981,
+    "lng": 131.3731,
+    "prefecture": "miyazaki",
+    "region": "kyushu"
+  },
+  {
+    "id": "88151",
+    "name": "薩摩川内",
+    "lat": 31.8181,
+    "lng": 130.3031,
+    "prefecture": "kagoshima",
+    "region": "kyushu"
+  },
+  {
+    "id": "90119",
+    "name": "霧島",
+    "lat": 31.7431,
+    "lng": 130.7631,
+    "prefecture": "kagoshima",
+    "region": "kyushu"
+  },
+  {
+    "id": "88486",
+    "name": "指宿",
+    "lat": 31.2531,
+    "lng": 130.6431,
+    "prefecture": "kagoshima",
+    "region": "kyushu"
+  },
+  {
+    "id": "44172",
+    "name": "奄美大島",
+    "lat": 28.3781,
+    "lng": 129.4931,
+    "prefecture": "kagoshima",
+    "region": "kyushu"
+  },
+  {
+    "id": "88686",
+    "name": "屋久島",
+    "lat": 30.3831,
+    "lng": 130.6631,
+    "prefecture": "kagoshima",
+    "region": "kyushu"
+  },
+  {
+    "id": "91107",
+    "name": "名護",
+    "lat": 26.5931,
+    "lng": 127.9781,
+    "prefecture": "okinawa",
+    "region": "okinawa"
+  },
+  {
+    "id": "93041",
+    "name": "宮古島",
+    "lat": 24.8031,
+    "lng": 125.2831,
+    "prefecture": "okinawa",
+    "region": "okinawa"
+  },
+  {
+    "id": "94017",
+    "name": "与那国島",
+    "lat": 24.4681,
+    "lng": 123.0031,
+    "prefecture": "okinawa",
+    "region": "okinawa"
+  },
+  {
+    "id": "91146",
+    "name": "久米島",
+    "lat": 26.3431,
+    "lng": 126.8031,
+    "prefecture": "okinawa",
+    "region": "okinawa"
+  },
+  {
+    "id": "94062",
+    "name": "西表島",
+    "lat": 24.3331,
+    "lng": 123.7631,
+    "prefecture": "okinawa",
+    "region": "okinawa"
+  },
+  {
+    "id": "68166",
+    "name": "南大東島",
+    "lat": 25.8281,
+    "lng": 131.2331,
+    "prefecture": "okinawa",
+    "region": "okinawa"
+  },
+  {
+    "id": "68166",
+    "name": "北大東島",
+    "lat": 25.9431,
+    "lng": 131.3081,
+    "prefecture": "okinawa",
+    "region": "okinawa"
+  },
+  {
+    "id": "91011",
+    "name": "伊是名島",
+    "lat": 26.9031,
+    "lng": 127.9531,
+    "prefecture": "okinawa",
+    "region": "okinawa"
+  },
+  {
+    "id": "90131",
+    "name": "知床",
+    "lat": 44.0731,
+    "lng": 145.1031,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12626",
+    "name": "富良野",
+    "lat": 43.3431,
+    "lng": 142.3831,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "12551",
+    "name": "美瑛",
+    "lat": 43.5931,
+    "lng": 142.4631,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "21312",
+    "name": "登別",
+    "lat": 42.4131,
+    "lng": 141.1031,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "21237",
+    "name": "洞爺湖",
+    "lat": 42.5831,
+    "lng": 140.7531,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "90136",
+    "name": "十勝",
+    "lat": 42.8531,
+    "lng": 143.3431,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "90137",
+    "name": "利尻島",
+    "lat": 45.1831,
+    "lng": 141.2431,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "11046",
+    "name": "礼文島",
+    "lat": 45.2931,
+    "lng": 141.0431,
+    "prefecture": "hokkaido",
+    "region": "hokkaido"
+  },
+  {
+    "id": "31506",
+    "name": "三沢",
+    "lat": 40.6831,
+    "lng": 141.3631,
+    "prefecture": "aomori",
+    "region": "tohoku"
+  },
+  {
+    "id": "31586",
+    "name": "十和田",
+    "lat": 40.6131,
+    "lng": 141.2031,
+    "prefecture": "aomori",
+    "region": "tohoku"
+  },
+  {
+    "id": "33576",
+    "name": "花巻",
+    "lat": 39.3881,
+    "lng": 141.1131,
+    "prefecture": "iwate",
+    "region": "tohoku"
+  },
+  {
+    "id": "33716",
+    "name": "北上",
+    "lat": 39.2831,
+    "lng": 141.1131,
+    "prefecture": "iwate",
+    "region": "tohoku"
+  },
+  {
+    "id": "85166",
+    "name": "白石",
+    "lat": 38.0031,
+    "lng": 140.6231,
+    "prefecture": "miyagi",
+    "region": "tohoku"
+  },
+  {
+    "id": "90144",
+    "name": "角田",
+    "lat": 37.9731,
+    "lng": 140.7831,
+    "prefecture": "miyagi",
+    "region": "tohoku"
+  },
+  {
+    "id": "32111",
+    "name": "能代",
+    "lat": 40.2131,
+    "lng": 140.0231,
+    "prefecture": "akita",
+    "region": "tohoku"
+  },
+  {
+    "id": "54841",
+    "name": "湯沢",
+    "lat": 39.1631,
+    "lng": 140.4931,
+    "prefecture": "akita",
+    "region": "tohoku"
+  },
+  {
+    "id": "35162",
+    "name": "新庄",
+    "lat": 38.7631,
+    "lng": 140.3031,
+    "prefecture": "yamagata",
+    "region": "tohoku"
+  },
+  {
+    "id": "35456",
+    "name": "長井",
+    "lat": 38.1031,
+    "lng": 140.0431,
+    "prefecture": "yamagata",
+    "region": "tohoku"
+  },
+  {
+    "id": "36151",
+    "name": "相馬",
+    "lat": 37.7981,
+    "lng": 140.9231,
+    "prefecture": "fukushima",
+    "region": "tohoku"
+  },
+  {
+    "id": "36667",
+    "name": "白河",
+    "lat": 37.1231,
+    "lng": 140.2131,
+    "prefecture": "fukushima",
+    "region": "tohoku"
+  },
+  {
+    "id": "40221",
+    "name": "古河",
+    "lat": 36.1831,
+    "lng": 139.7031,
+    "prefecture": "ibaraki",
+    "region": "kanto"
+  },
+  {
+    "id": "40406",
+    "name": "鹿嶋",
+    "lat": 35.9631,
+    "lng": 140.6231,
+    "prefecture": "ibaraki",
+    "region": "kanto"
+  },
+  {
+    "id": "41376",
+    "name": "小山",
+    "lat": 36.3131,
+    "lng": 139.8031,
+    "prefecture": "tochigi",
+    "region": "kanto"
+  },
+  {
+    "id": "41166",
+    "name": "日光",
+    "lat": 36.7581,
+    "lng": 139.6231,
+    "prefecture": "tochigi",
+    "region": "kanto"
+  },
+  {
+    "id": "42266",
+    "name": "桐生",
+    "lat": 36.4081,
+    "lng": 139.3331,
+    "prefecture": "gunma",
+    "region": "kanto"
+  },
+  {
+    "id": "42146",
+    "name": "沼田",
+    "lat": 36.6431,
+    "lng": 139.0431,
+    "prefecture": "gunma",
+    "region": "kanto"
+  },
+  {
+    "id": "43266",
+    "name": "所沢",
+    "lat": 35.7981,
+    "lng": 139.4681,
+    "prefecture": "saitama",
+    "region": "kanto"
+  },
+  {
+    "id": "90158",
+    "name": "春日部",
+    "lat": 35.9756,
+    "lng": 139.7531,
+    "prefecture": "saitama",
+    "region": "kanto"
+  },
+  {
+    "id": "45148",
+    "name": "銚子",
+    "lat": 35.7331,
+    "lng": 140.8231,
+    "prefecture": "chiba",
+    "region": "kanto"
+  },
+  {
+    "id": "45371",
+    "name": "勝浦",
+    "lat": 35.1531,
+    "lng": 140.3231,
+    "prefecture": "chiba",
+    "region": "kanto"
+  },
+  {
+    "id": "44056",
+    "name": "青梅",
+    "lat": 35.7881,
+    "lng": 139.2631,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "91021",
+    "name": "奥多摩",
+    "lat": 35.8081,
+    "lng": 139.0931,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "44172",
+    "name": "大島",
+    "lat": 34.7331,
+    "lng": 139.3631,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "44226",
+    "name": "三宅島",
+    "lat": 34.0731,
+    "lng": 139.5231,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "44263",
+    "name": "八丈島",
+    "lat": 33.1131,
+    "lng": 139.7931,
+    "prefecture": "tokyo",
+    "region": "kanto"
+  },
+  {
+    "id": "46136",
+    "name": "平塚",
+    "lat": 35.3281,
+    "lng": 139.3431,
+    "prefecture": "kanagawa",
+    "region": "kanto"
+  },
+  {
+    "id": "46046",
+    "name": "相模原",
+    "lat": 35.5731,
+    "lng": 139.3631,
+    "prefecture": "kanagawa",
+    "region": "kanto"
+  },
+  {
+    "id": "46161",
+    "name": "箱根",
+    "lat": 35.2331,
+    "lng": 139.0231,
+    "prefecture": "kanagawa",
+    "region": "kanto"
+  },
+  {
+    "id": "54396",
+    "name": "三条",
+    "lat": 37.6331,
+    "lng": 138.9531,
+    "prefecture": "niigata",
+    "region": "chubu"
+  },
+  {
+    "id": "54541",
+    "name": "柏崎",
+    "lat": 37.3681,
+    "lng": 138.5531,
+    "prefecture": "niigata",
+    "region": "chubu"
+  },
+  {
+    "id": "90171",
+    "name": "魚沼",
+    "lat": 37.2331,
+    "lng": 138.9631,
+    "prefecture": "niigata",
+    "region": "chubu"
+  },
+  {
+    "id": "90172",
+    "name": "佐渡",
+    "lat": 38.0181,
+    "lng": 138.3631,
+    "prefecture": "niigata",
+    "region": "chubu"
+  },
+  {
+    "id": "55041",
+    "name": "氷見",
+    "lat": 36.8531,
+    "lng": 136.9831,
+    "prefecture": "toyama",
+    "region": "chubu"
+  },
+  {
+    "id": "90174",
+    "name": "黒部",
+    "lat": 36.8731,
+    "lng": 137.4531,
+    "prefecture": "toyama",
+    "region": "chubu"
+  },
+  {
+    "id": "56146",
+    "name": "七尾",
+    "lat": 37.0431,
+    "lng": 136.9631,
+    "prefecture": "ishikawa",
+    "region": "chubu"
+  },
+  {
+    "id": "56301",
+    "name": "加賀",
+    "lat": 36.2981,
+    "lng": 136.3131,
+    "prefecture": "ishikawa",
+    "region": "chubu"
+  },
+  {
+    "id": "57317",
+    "name": "小浜",
+    "lat": 35.4981,
+    "lng": 135.7431,
+    "prefecture": "fukui",
+    "region": "chubu"
+  },
+  {
+    "id": "57121",
+    "name": "大野",
+    "lat": 35.9831,
+    "lng": 136.4831,
+    "prefecture": "fukui",
+    "region": "chubu"
+  },
+  {
+    "id": "50196",
+    "name": "富士吉田",
+    "lat": 35.4831,
+    "lng": 138.8031,
+    "prefecture": "yamanashi",
+    "region": "chubu"
+  },
+  {
+    "id": "49086",
+    "name": "韮崎",
+    "lat": 35.7131,
+    "lng": 138.4431,
+    "prefecture": "yamanashi",
+    "region": "chubu"
+  },
+  {
+    "id": "48256",
+    "name": "上田",
+    "lat": 36.4031,
+    "lng": 138.2531,
+    "prefecture": "nagano",
+    "region": "chubu"
+  },
+  {
+    "id": "48767",
+    "name": "飯田",
+    "lat": 35.5131,
+    "lng": 137.8231,
+    "prefecture": "nagano",
+    "region": "chubu"
+  },
+  {
+    "id": "48491",
+    "name": "諏訪",
+    "lat": 36.0331,
+    "lng": 138.1131,
+    "prefecture": "nagano",
+    "region": "chubu"
+  },
+  {
+    "id": "48141",
+    "name": "白馬",
+    "lat": 36.7031,
+    "lng": 137.8631,
+    "prefecture": "nagano",
+    "region": "chubu"
+  },
+  {
+    "id": "52606",
+    "name": "多治見",
+    "lat": 35.3331,
+    "lng": 137.1331,
+    "prefecture": "gifu",
+    "region": "chubu"
+  },
+  {
+    "id": "52557",
+    "name": "中津川",
+    "lat": 35.4881,
+    "lng": 137.5031,
+    "prefecture": "gifu",
+    "region": "chubu"
+  },
+  {
+    "id": "90187",
+    "name": "下呂",
+    "lat": 35.8031,
+    "lng": 137.2431,
+    "prefecture": "gifu",
+    "region": "chubu"
+  },
+  {
+    "id": "90188",
+    "name": "熱海",
+    "lat": 35.0956,
+    "lng": 139.0731,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "50206",
+    "name": "三島",
+    "lat": 35.1181,
+    "lng": 138.9181,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "50136",
+    "name": "御殿場",
+    "lat": 35.3081,
+    "lng": 138.9331,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "50196",
+    "name": "富士",
+    "lat": 35.1631,
+    "lng": 138.6831,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "53133",
+    "name": "焼津",
+    "lat": 34.8631,
+    "lng": 138.3231,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "50466",
+    "name": "掛川",
+    "lat": 34.7681,
+    "lng": 138.0131,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "90194",
+    "name": "袋井",
+    "lat": 34.7531,
+    "lng": 137.9231,
+    "prefecture": "shizuoka",
+    "region": "chubu"
+  },
+  {
+    "id": "90195",
+    "name": "春日井",
+    "lat": 35.2481,
+    "lng": 136.9731,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "73341",
+    "name": "瀬戸",
+    "lat": 35.2231,
+    "lng": 137.0831,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "71136",
+    "name": "半田",
+    "lat": 34.8931,
+    "lng": 136.9381,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "90198",
+    "name": "刈谷",
+    "lat": 34.9881,
+    "lng": 137.0031,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "90199",
+    "name": "安城",
+    "lat": 34.9581,
+    "lng": 137.0831,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "90200",
+    "name": "西尾",
+    "lat": 34.8631,
+    "lng": 137.0631,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "51281",
+    "name": "蒲郡",
+    "lat": 34.8281,
+    "lng": 137.2231,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "51247",
+    "name": "新城",
+    "lat": 34.9031,
+    "lng": 137.4981,
+    "prefecture": "aichi",
+    "region": "chubu"
+  },
+  {
+    "id": "53041",
+    "name": "桑名",
+    "lat": 35.0631,
+    "lng": 136.6831,
+    "prefecture": "mie",
+    "region": "kansai"
+  },
+  {
+    "id": "90204",
+    "name": "鈴鹿",
+    "lat": 34.8831,
+    "lng": 136.5831,
+    "prefecture": "mie",
+    "region": "kansai"
+  },
+  {
+    "id": "53141",
+    "name": "名張",
+    "lat": 34.6281,
+    "lng": 136.1081,
+    "prefecture": "mie",
+    "region": "kansai"
+  },
+  {
+    "id": "53378",
+    "name": "尾鷲",
+    "lat": 34.0731,
+    "lng": 136.1931,
+    "prefecture": "mie",
+    "region": "kansai"
+  },
+  {
+    "id": "50296",
+    "name": "熊野",
+    "lat": 33.8881,
+    "lng": 136.1031,
+    "prefecture": "mie",
+    "region": "kansai"
+  },
+  {
+    "id": "73256",
+    "name": "長浜",
+    "lat": 35.3781,
+    "lng": 136.2681,
+    "prefecture": "shiga",
+    "region": "kansai"
+  },
+  {
+    "id": "60161",
+    "name": "近江八幡",
+    "lat": 35.1281,
+    "lng": 136.0981,
+    "prefecture": "shiga",
+    "region": "kansai"
+  },
+  {
+    "id": "42121",
+    "name": "草津",
+    "lat": 35.0181,
+    "lng": 135.9581,
+    "prefecture": "shiga",
+    "region": "kansai"
+  },
+  {
+    "id": "61111",
+    "name": "舞鶴",
+    "lat": 35.4731,
+    "lng": 135.3231,
+    "prefecture": "kyoto",
+    "region": "kansai"
+  },
+  {
+    "id": "61187",
+    "name": "福知山",
+    "lat": 35.2981,
+    "lng": 135.1281,
+    "prefecture": "kyoto",
+    "region": "kansai"
+  },
+  {
+    "id": "90213",
+    "name": "宇治",
+    "lat": 34.8831,
+    "lng": 135.7981,
+    "prefecture": "kyoto",
+    "region": "kansai"
+  },
+  {
+    "id": "90214",
+    "name": "亀岡",
+    "lat": 35.0131,
+    "lng": 135.5781,
+    "prefecture": "kyoto",
+    "region": "kansai"
+  },
+  {
+    "id": "62081",
+    "name": "生駒",
+    "lat": 34.6931,
+    "lng": 135.7031,
+    "prefecture": "nara",
+    "region": "kansai"
+  },
+  {
+    "id": "36476",
+    "name": "大和郡山",
+    "lat": 34.6481,
+    "lng": 135.7831,
+    "prefecture": "nara",
+    "region": "kansai"
+  },
+  {
+    "id": "90217",
+    "name": "天理",
+    "lat": 34.5981,
+    "lng": 135.8431,
+    "prefecture": "nara",
+    "region": "kansai"
+  },
+  {
+    "id": "64127",
+    "name": "五條",
+    "lat": 34.3531,
+    "lng": 135.7131,
+    "prefecture": "nara",
+    "region": "kansai"
+  },
+  {
+    "id": "90219",
+    "name": "岩出",
+    "lat": 34.2581,
+    "lng": 135.3131,
+    "prefecture": "wakayama",
+    "region": "kansai"
+  },
+  {
+    "id": "90220",
+    "name": "橋本",
+    "lat": 34.3131,
+    "lng": 135.6031,
+    "prefecture": "wakayama",
+    "region": "kansai"
+  },
+  {
+    "id": "65276",
+    "name": "新宮",
+    "lat": 33.7281,
+    "lng": 135.9931,
+    "prefecture": "wakayama",
+    "region": "kansai"
+  },
+  {
+    "id": "65288",
+    "name": "白浜",
+    "lat": 33.6831,
+    "lng": 135.3431,
+    "prefecture": "wakayama",
+    "region": "kansai"
+  },
+  {
+    "id": "34216",
+    "name": "加古川",
+    "lat": 34.7531,
+    "lng": 134.8431,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  },
+  {
+    "id": "90224",
+    "name": "宝塚",
+    "lat": 34.7981,
+    "lng": 135.3631,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  },
+  {
+    "id": "90225",
+    "name": "伊丹",
+    "lat": 34.7831,
+    "lng": 135.4031,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  },
+  {
+    "id": "63477",
+    "name": "西宮",
+    "lat": 34.7381,
+    "lng": 135.3281,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  },
+  {
+    "id": "90227",
+    "name": "尼崎",
+    "lat": 34.7331,
+    "lng": 135.4181,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  },
+  {
+    "id": "63411",
+    "name": "三田",
+    "lat": 34.8881,
+    "lng": 135.2231,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  },
+  {
+    "id": "90229",
+    "name": "淡路島",
+    "lat": 34.3431,
+    "lng": 134.9031,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  },
+  {
+    "id": "63571",
+    "name": "洲本",
+    "lat": 34.3431,
+    "lng": 134.8931,
+    "prefecture": "hyogo",
+    "region": "kansai"
+  }
+]
