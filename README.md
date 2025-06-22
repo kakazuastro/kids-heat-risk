@@ -30,20 +30,16 @@
 ## 技術構成
 
 ### フロントエンド
-- **HTML5 + CSS3 + JavaScript (ES6+)**
+- **HTML5 + CSS3 + JavaScript**
 - **レスポンシブデザイン**: スマートフォン・タブレット対応
-- **PWA対応**: オフライン機能とアプリライクな体験
 - **GPS API**: Geolocation APIによる現在地取得
 
 ### バックエンド
-- **Google Cloud Run**: サーバーレス実行環境
-- **Flask**: Python Webアプリケーションフレームワーク
+- **Google Cloud Function**: サーバーレス実行環境
 - **Google Gemini API**: AI画像解析・テキスト生成
-- **気象庁API**: アメダス観測データ取得
+- **気象庁JSONデータ**: アメダス観測データ取得
 
 ### インフラストラクチャ
-- **Google Cloud Platform (GCP)**
-- **Cloud Run**: コンテナベースのサーバーレス実行
 - **Firebase Hosting**: 静的ファイル配信
 - **CORS対応**: クロスオリジンリクエスト対応
 
@@ -51,7 +47,7 @@
 
 ### メイン判定API
 ```
-POST/GET https://kids-heat-risk-dev-865761751183.asia-northeast1.run.app/
+POST/GET https://kids-heat-risk-865761751183.asia-northeast1.run.app/
 ```
 
 **パラメータ:**
@@ -61,26 +57,17 @@ POST/GET https://kids-heat-risk-dev-865761751183.asia-northeast1.run.app/
 - `before_image`: 外出前画像（Base64, オプション）
 - `after_image`: 帰宅後画像（Base64, オプション）
 
-### 画像解析専用API
-```
-POST /analyze-image
-```
-
-### ヘルスチェック
-```
-GET /health
-```
 
 ## 特徴
 
 ### 年齢別カスタマイズ基準
 一般的な成人向け暑さ指数（WBGT）基準より大幅に厳格な、子ども専用の判定基準を採用:
 
-| 年齢 | 危険レベル1 | 高危険レベル2 | 非常に危険レベル3 |
-|------|------------|---------------|-------------------|
-| 0-1歳 | 25°C以上 | 28°C以上 | 31°C以上 |
-| 2-3歳 | 26°C以上 | 29°C以上 | 32°C以上 |
-| 4-6歳 | 27°C以上 | 30°C以上 | 33°C以上 |
+| 年齢 | 注意 | 警戒 | 厳重警戒 | 危険 |
+|------|------|------|----------|------|
+| 0-1歳 | 22°C以上 | 23°C以上 | 25°C以上 | 28°C以上 |
+| 2-3歳 | 23°C以上 | 24°C以上 | 26°C以上 | 29°C以上 |
+| 4-6歳 | 24°C以上 | 25°C以上 | 27°C以上 | 30°C以上 |
 
 ### 子ども特有の要因を考慮
 - **身長と輻射熱**: 地面に近いため輻射熱の影響が強い
@@ -93,38 +80,10 @@ GET /health
 - **個人特定なし**: 個人の特定や目的外使用は一切なし
 - **Googleプライバシーポリシー準拠**: 安全なAI分析環境
 
-## セットアップ
-
-### 必要な環境変数
-```bash
-GEMINI_API_KEY=your_gemini_api_key_here
-PORT=8080
-FLASK_ENV=production
-```
-
-### ローカル開発
-```bash
-# 依存関係のインストール
-pip install -r requirements.txt
-
-# 開発サーバー起動
-python main.py
-```
-
-### Cloud Run デプロイ
-```bash
-# コンテナビルド & デプロイ
-gcloud run deploy kids-heat-risk \
-  --source . \
-  --platform managed \
-  --region asia-northeast1 \
-  --allow-unauthenticated \
-  --set-env-vars GEMINI_API_KEY=your_api_key
-```
 
 ## 対応データ
 
-- **全国のアメダス観測所**: 1,300箇所以上の気象観測所データ
+- **全国のアメダス観測所**: 400箇所以上の気象観測所データ
 - **対応画像形式**: JPEG, PNG, WebP (最大5MB)
 - **更新間隔**: 10分毎の気象データ更新
 - **精度**: GPS精度に応じた最寄り観測所自動選択
@@ -142,12 +101,9 @@ gcloud run deploy kids-heat-risk \
 - **救急安心センター**: #7119
 - **子ども医療相談**: #8000
 
-## ライセンス
-
-このプロジェクトは教育・研究目的で開発されました。商用利用については別途ご相談ください。
 
 ## 開発チーム
 
-Google ハッカソン 2024 参加プロジェクト  
+Google ハッカソン 2025 参加プロジェクト  
 子どもたちの安全な夏を願って開発されました。
 
