@@ -37,7 +37,7 @@ let AMEDAS_STATIONS = [];
 // JSONファイルから全国の気象観測所データを取得します
 async function loadAmedasStations() {
     try {
-        const response = await fetch('../functions/amedas_id.json');
+        const response = await fetch('./data/amedas_id.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
