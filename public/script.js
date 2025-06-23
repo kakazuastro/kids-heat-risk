@@ -922,7 +922,7 @@ try {
             console.log(`[JS] 方法2: 観測所情報なし - デフォルト使用`);
         }
         
-        const proxyUrl = `https://cors-anywhere.herokuapp.com/https://kids-heat-risk-865761751183.asia-northeast1.run.app${queryParams}`;
+        const proxyUrl = `https://cors-anywhere.herokuapp.com/https://kids-heat-risk-poc-865761751183.asia-northeast1.run.app${queryParams}`;
         const response2 = await fetch(proxyUrl, {
         method: 'GET',
         headers: {
@@ -1276,7 +1276,7 @@ function getWBGTRiskInfo(wbgt, providedRiskLevel, ageGroup) {
     } else if (wbgtNum >= currentThresholds["警戒"]) {
     return { level: '警戒', color: '#FFB74D', class: 'warning', icon: '' };
     } else if (wbgtNum >= currentThresholds["注意"]) {
-    return { level: '注意', color: '#FFEB3B', class: 'caution', icon: '' };
+    return { level: '注意', color: '#FFB74D', class: 'caution', icon: '' };
     } else {
     return { level: 'ほぼ安全', color: '#4CAF50', class: 'safe', icon: '' };
     }
@@ -1368,19 +1368,19 @@ function getProgressStroke(level, fallbackColor) {
     // 背景色より少し明度を上げた色を使用（視認性と統一感の両立）
     switch(level) {
         case 'ほぼ安全':
-            return '#66BB6A'; // 背景緑より明るい緑
+            return '#66BB6A'; 
         case '注意': 
-            return '#FFF176'; // 背景黄色より明るい黄色
+            return '#87CEEB'; 
         case '警戒':
-            return '#FFCC80'; // 背景オレンジより明るいオレンジ
+            return '#FFCC80'; 
         case '厳重警戒':
-            return '#FFAB40'; // 背景濃いオレンジより明るいオレンジ
+            return '#FFAB40'; 
         case '危険レベル1':
-            return '#FF6B6B'; // 背景赤より明るい赤
+            return '#FF6B6B'; 
         case '高危険レベル2':
-            return '#B71C1C'; // 背景ワインレッドより明るい赤
+            return '#B71C1C'; 
         case '非常に危険レベル3':
-            return '#A31515'; // 背景暗い赤より明るい赤
+            return '#A31515';
         default:
             return fallbackColor || '#66BB6A';
     }
@@ -1460,8 +1460,8 @@ function getWbgtColorInfo(wbgtValue, ageGroup) {
     return {
         level: '警戒',
         icon: '',
-        bgGradient: 'linear-gradient(135deg, #FFEB3B, #FDD835)', 
-        progressColor: '#FFEB3B', // 警戒のオレンジ
+        bgGradient: 'linear-gradient(135deg, #FFB74D, #FFB74D)', 
+        progressColor: '#FFB74D', // 警戒のオレンジ
         textColor: 'white'
     };
     } else if (wbgtValue >= currentThresholds["注意"]) {
@@ -1766,7 +1766,7 @@ function updateColorBarMarker(wbgtValue, ageGroup) {
     <!-- 環境情報カード -->
     <div style="background: white; border-radius: 16px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <div style="font-size: 16px; font-weight: 600; color: #333; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
-        今の暑さ（気象庁アメダス観測データ）
+        今の暑さ
     </div>
     
     <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 16px;">
@@ -1822,7 +1822,7 @@ function updateColorBarMarker(wbgtValue, ageGroup) {
     <!-- お子さまが感じる暑さカード -->
     <div style="background: white; border-radius: 16px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
         <div style="font-size: 16px; font-weight: 600; color: #333; margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
-            お子さまが感じる暑さ(推定値)
+            お子さまが感じる暑さ
         </div>
         
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px;">
